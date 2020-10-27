@@ -1,0 +1,113 @@
+ html{
+     margin:0px !important;
+     padding:0px !important;
+}
+ ul{
+     padding:0px;
+     margin:0px;
+     list-style:none;
+}
+ a, a:hover{
+     text-decoration: none !important;
+}
+
+ :hover,:focus{
+     outline: none !important;
+}
+ body{
+     font-family: 'Roboto', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     letter-spacing: 0em;
+     color: #000;
+     position: relative;
+     overflow-x: hidden;
+     background: #278493 ;
+}
+ .container{
+     max-width: 1180px;
+     margin:0px auto;
+}
+ img{
+     max-width: 100%;
+     height: auto;
+}
+.textwidget p:empty {
+  display: none;
+}
+ .thumbnail{
+     overflow: hidden;
+     padding: 0px;
+     border: none;
+     background-size: cover !important;
+     background-repeat:no-repeat !important;
+     border-radius: 0px;
+     margin:0px;
+     position: relative;
+}
+ input:focus::-webkit-input-placeholder , textarea:focus::-webkit-input-placeholder {
+     color:transparent;
+}
+
+.pages {
+    max-width:985px;
+    width: 100%;
+    margin:0px auto;
+}
+.pages>img{
+    display: table;
+    margin:60px auto 50px auto;
+}
+
+.duchpo{
+    display: table;
+    width: 100%;
+    background: #4ebac8;
+}
+.duchpo>img{
+    float:left;
+}
+.f-right{
+        display: table;
+        width: 100%;
+        max-width: 330px;
+        margin: 40px 0px 0px 0px;
+}
+.f-right .textwidget {
+    position: relative;
+    cursor: pointer;
+}
+.f-right .textwidget h4{
+    margin: 0px 0px 4px 0px;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.f-right .textwidget p{
+    color:#fff;
+    margin:0px;
+    font-size: 17px;
+}
+.f-right .textwidget ul{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s linear;
+    right: 120px;
+    top: 0px;
+}
+.f-right .textwidget ul li{
+    margin:0px 0px 5px 0px;
+}
+.f-right .textwidget ul li a{
+    color:#fff;
+}
+.f-right .textwidget:hover ul{
+    opacity: 1;
+    visibility: visible;
+    right: 100px;
+}
+.f-right  [class*="area"]{
+    margin: 0px 0px 20px 10px;
+}
